@@ -1,0 +1,27 @@
+uofnotears.app {
+    tls {
+        issuer acme {
+            dir https://acme.zerossl.com/v2/DV90
+            eab {env.ZEROSSL_EAB_KID} {env.ZEROSSL_EAB_HMAC_KEY}
+        }
+    }
+
+    root * /srv
+
+    handle /api/* {
+        reverse_proxy backend:3001
+    }
+
+    handle /uploads/* {
+        reverse_proxy backend:3001
+    }
+
+    handle /socket.io/* {
+        reverse_proxy backend:3001
+    }
+
+    handle {
+        try_files {path} /index.html
+        file_server
+    }
+}

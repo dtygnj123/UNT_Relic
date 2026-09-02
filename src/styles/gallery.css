@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6fb;
+}
+
+.gallery-page {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.gallery-page h1 {
+  text-align: center;
+}
+
+.search-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.search-section input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.search-section button {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.file-gallery {
+  height: 400px;
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.file-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.file-info {
+  flex: 1;
+}
+
+.file-card h3 {
+  margin-bottom: 5px;
+}
+
+.file-card p {
+  color: #666;
+}
+
+.file-details {
+  width: 220px;
+  margin-top: 25px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  background-color: #ece9ff;
+  color: rgb(36, 16, 105);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.description.ai-pending,
+.ai-pending-label {
+  font-style: italic;
+  color: #888;
+}
+
+.ai-pending-label {
+  font-size: 12px;
+}
+
+.ai-error-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.ai-error,
+.ai-error-label {
+  color: #b42318;
+  font-size: 13px;
+  margin: 0;
+}
+
+.ai-retry-btn {
+  border: 1px solid #b42318;
+  background: #fff;
+  color: #b42318;
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ai-retry-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.vote-buttons {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.solved-status {
+  margin-top: 8px;
+}
+
+.solved-tag {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.solved-tag.solved-yes {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.solved-tag.solved-no {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.solve-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: rgb(36, 16, 105);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.solve-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.solve-btn:hover:not(:disabled) {
+  background-color: rgb(96, 91, 114);
+}
+
+.vote-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.vote-btn-up {
+  background: rgb(37, 147, 20);
+}
+
+.vote-btn-down {
+  background: rgb(189, 45, 45);
+}
+
+.vote-btn:hover {
+  background: rgb(96, 91, 114);
+}
+
+.post-btn {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  background: #118e36;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.post-btn:hover {
+  background: #2563eb;
+}
+
+.title-btn {
+  background: none;
+  border: none;
+  color: rgb(36, 16, 105);
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.profile-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.delete-button {
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+
+  margin-left: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-button:hover {
+  background: darkred;
+}

@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6fb;
+}
+
+.page {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.solved-tag {
+  background-color: #aa3333;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.solved-tag.is-solved {
+  background-color: #2d7a3e;
+}
+
+.page-message {
+  width: 70%;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+.file-title {
+  color: #555;
+  margin-top: -10px;
+}
+
+.knowledge-point {
+  color: rgb(36, 16, 105);
+  font-weight: bold;
+}
+
+.question-type {
+  color: #666;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+/* TEMPORARY: remove before final submission */
+.temp-dev-answer {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px dashed #c77;
+  border-radius: 8px;
+  background: #fff8f8;
+}
+
+.temp-dev-answer h3 {
+  margin-top: 0;
+  color: #aa3333;
+}
+/* END TEMPORARY */
+
+.difficulty {
+  display: flex;
+  gap: 12px;
+  margin: 25px 0;
+}
+
+.difficulty button {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: rgb(36, 16, 105);
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid rgb(36, 16, 105);
+  transition: 0.2s;
+}
+
+.difficulty button:hover {
+  background: #ece9ff;
+}
+
+.difficulty .selected {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background: rgb(36, 16, 105);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.difficulty button:hover {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background: rgb(36, 16, 105);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.question,
+.ai-feedback {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.textarea {
+  width: 100%;
+  height: 180px;
+  padding: 15px;
+  box-sizing: border-box;
+
+  border: 2px solid #d6d6e8;
+  border-radius: 10px;
+
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  margin-top: 15px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: rgb(36, 16, 105);
+  color: white;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.grading-status {
+  font-style: italic;
+  color: #666;
+}
+
+.grade-score {
+  font-weight: bold;
+  color: rgb(36, 16, 105);
+}
+
+.ai-unavailable-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.ai-error {
+  color: #b42318;
+  margin: 0;
+}
+
+.ai-retry-btn {
+  border: 1px solid #b42318;
+  background: #fff;
+  color: #b42318;
+  border-radius: 16px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ai-retry-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.revealed-answer {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e5ef;
+}
+
+.submit-btn:hover {
+  background: rgb(52, 32, 135);
+}
+
+.score {
+  color: rgb(174, 31, 31);
+  font-weight: bold;
+}

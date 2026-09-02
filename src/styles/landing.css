@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6fb;
+}
+
+.landing-page {
+  min-height: 100vh;
+}
+
+.landing-header {
+  background-color: rgb(36, 16, 105);
+  color: white;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-logo {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.landing-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.landing-buttons button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+
+  background-color: white;
+  color: rgb(36, 16, 105);
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  color: rgb(36, 16, 105);
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.main-cta {
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+
+  background-color: rgb(36, 16, 105);
+  color: white;
+
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.features-section {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto 60px auto;
+}
+
+.features-section h2 {
+  text-align: center;
+  color: rgb(36, 16, 105);
+  margin-bottom: 30px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 25px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card h3 {
+  color: rgb(36, 16, 105);
+  margin-top: 0;
+}
+
+.feature-card p {
+  color: #555;
+  line-height: 1.5;
+}
