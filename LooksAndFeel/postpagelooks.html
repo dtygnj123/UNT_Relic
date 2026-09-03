@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PostPage Looks</title>
+    <link rel="stylesheet" href="postpagefeels.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Create New Post</h2>
+      <form>
+        <p class="error-message">Error message goes here</p>
+        <div class="dropdown">
+          <label>Do you want to Post anonymous?</label>
+          <select required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Title</label>
+          <input type="text" value="CSC343 Practice" required />
+        </div>
+
+        <div class="dropdown">
+          <label>Type of Content</label>
+          <select required>
+            <option value="notes">Notes</option>
+            <option value="slides">Slides</option>
+            <option value="practice">Practice Questions</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="dropdown">
+          <label>Level of Course</label>
+          <select required>
+            <option value="100">100 Level</option>
+            <option value="200">200 Level</option>
+            <option value="300">300 Level</option>
+            <option value="400">400 Level</option>
+          </select>
+        </div>
+
+        <div class="dropdown">
+          <label>Program of Course</label>
+          <select required>
+            <option>CS</option>
+            <option>MAT</option>
+            <option>STA</option>
+            <option>ANT</option>
+            <option>PHL</option>
+            <option>SOC</option>
+            <option>MNG</option>
+            <option>ARA</option>
+            <option>GLA</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Content Description</label>
+          <textarea value="This is my post content." required></textarea>
+        </div>
+
+        <div>
+          <label>Add File</label>
+          <input type="file" required />
+        </div>
+
+        <div>
+          <button type="submit" class="loginbutton">Post</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
