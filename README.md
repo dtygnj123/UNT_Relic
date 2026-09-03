@@ -4,6 +4,9 @@ This is a group project built by David Zhao, Owen Hua, and Pu (Sean) Xiao.
 The Website is now offline after the course(cscc09) is over. This is just the code we worked with.
 Will be taken down if any contributors involved require.
 
+# Looks and Feel
+The html/css pages that gives a peek of what the website pages looks like.
+
 # Project Description: 
 
 A free and open-source, AI-assisted repository aiming to improve the study experience of UofT students across all three campuses. The system has features such as explanations, study tips, notes and an online study room with an AI tutor. Students and instructors can post their own notes, explanations, or interpretations of the subject. The online study room has a maximum capacity of 6 students. Students can chat, discuss a resource in the repository, ask the AI tutor questions or perform many other activities to improve their learning experience.
