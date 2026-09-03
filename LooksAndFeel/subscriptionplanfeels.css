@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6fb;
+}
+
+.topbar {
+  background-color: rgb(36, 16, 105);
+  color: white;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+
+  background-color: white;
+  color: rgb(36, 16, 105);
+
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+
+  background-color: white;
+  color: rgb(36, 16, 105);
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.subscription-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plan-card {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #d6d6e8;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.plan-info {
+  flex: 1;
+}
+
+.subscribe-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  margin-left: 0px;
+  background-color: rgb(36, 16, 105);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.subscribe-btn:hover {
+  background-color: rgb(50, 30, 150);
+}
+
+.image {
+  width: 280px;
+  height: auto;
+  border-radius: 8px;
+  margin-left: 20px;
+}

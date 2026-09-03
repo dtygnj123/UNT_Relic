@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="chatroomfeels.css" rel="stylesheet" type="text/css" />
+    <title>UofNoTears</title>
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="logo">UofNoTears</div>
+
+      <div class="header-buttons">
+        <button class="header-btn">Logout</button>
+        <button class="profile-avatar">B</button>
+      </div>
+    </header>
+
+    <main class="chat-page">
+      <section class="messages">
+        <div class="message ai-message">
+          <div class="avatar ai">AI</div>
+          <div class="message-text">
+            <h3>AI Tutor</h3>
+            <p>
+              Welcome to studyroom 0801! I'm here to help you with your studies.
+              How can I assist you today?
+            </p>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="avatar amy">A</div>
+          <div class="message-text">
+            <h3>Amy</h3>
+            <p>Can someone generate a quiz from my CSCC09 notes?</p>
+          </div>
+        </div>
+
+        <div class="message ai-message">
+          <div class="avatar ai">AI</div>
+          <div class="message-text">
+            <h3>AI Tutor</h3>
+            <p>
+              Sure! Upload your file and I can create quiz questions, study
+              tips, and a cheat sheet.
+            </p>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="avatar amy">A</div>
+          <div class="message-text">
+            <h3>Amy</h3>
+            <p>
+              I've uploaded my CSC343 lecture notes. What can you help me with?
+            </p>
+          </div>
+        </div>
+
+        <div class="message ai-message">
+          <div class="avatar ai">AI</div>
+          <div class="message-text">
+            <h3>AI Tutor</h3>
+            <p>Your file has been analyzed. Choose one of the following:</p>
+
+            <button class="tutor_btn">Generate Quiz</button>
+            <button class="tutor_btn">Study Tips</button>
+            <button class="tutor_btn">Answer Questions</button>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="avatar amy">A</div>
+          <div class="message-text">
+            <h3>Amy</h3>
+            <p>Generate Quiz</p>
+          </div>
+        </div>
+
+        <div class="message ai-message">
+          <div class="avatar ai">AI</div>
+          <div class="message-text">
+            <h3>AI Tutor</h3>
+            <p>
+              Quiz Generated:
+              <br /><br />
+              1. What is Boyce-Codd Normal Form (BCNF)?
+              <br />
+              2. What is the purpose of a transaction?
+              <br />
+              3. Explain the difference between a primary key and a foreign key.
+            </p>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="avatar amy">A</div>
+          <div class="message-text">
+            <h3>Amy</h3>
+            <p>What is the difference between 3NF and BCNF?</p>
+          </div>
+        </div>
+
+        <div class="message ai-message">
+          <div class="avatar ai">AI</div>
+          <div class="message-text">
+            <h3>AI Tutor</h3>
+            <p>
+              Based on your uploaded notes:
+              <br /><br />
+              3NF removes transitive dependencies, while BCNF is a stricter form
+              that requires every determinant to be a candidate key.
+            </p>
+          </div>
+        </div>
+
+        <div class="message my-message">
+          <div class="avatar bob">B</div>
+          <div class="message-text">
+            <h3>Bob</h3>
+            <p>@AI Tutor Please do a back-flip for me</p>
+          </div>
+        </div>
+
+        <div class="message ai-message">
+          <div class="avatar ai">AI</div>
+          <div class="message-text">
+            <h3>AI Tutor</h3>
+            <p>
+              Sorry, I can't do a back-flip, I can only answer you ACEDEMIC
+              questions and generating review materials. Please upload your
+              notes and I can help you with that!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <form class="message-form">
+        <button type="button" class="upload-btn">Upload File</button>
+
+        <textarea placeholder="Type your message here..."></textarea>
+
+        <button type="submit" class="send-btn">Send</button>
+      </form>
+    </main>
+  </body>
+</html>

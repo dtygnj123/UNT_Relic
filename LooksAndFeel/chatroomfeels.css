@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #f4f6fb;
+}
+
+.topbar {
+  background-color: rgb(36, 16, 105);
+  color: white;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+
+  background-color: white;
+  color: rgb(36, 16, 105);
+
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+
+  background-color: white;
+  color: rgb(36, 16, 105);
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.chat-page {
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.messages {
+  height: 600px;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: white;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+
+.message-text {
+  max-width: 60%;
+  background-color: #f3f4f6;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.message-text h3 {
+  margin: 0 0 8px 0;
+  color: #1d3557;
+}
+
+.message-text p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.avatar.bob {
+  background-color: #1d4957;
+}
+
+.avatar.amy {
+  background-color: #c28b48;
+}
+
+.avatar.ai {
+  background-color: #2a9d8f;
+}
+
+.my-message {
+  flex-direction: row-reverse;
+}
+
+.my-message .message-text {
+  background-color: #1d3557;
+  color: white;
+}
+
+.my-message .message-text h3 {
+  color: white;
+}
+
+.ai-message .message-text {
+  background-color: #2a9d8f;
+  color: white;
+}
+
+.ai-message .message-text h3 {
+  color: white;
+}
+
+.message-form {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  background-color: white;
+}
+
+.message-form textarea {
+  flex: 1;
+  height: 50px;
+  resize: none;
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.upload-btn,
+.send-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.upload-btn {
+  background-color: #a8dadc;
+}
+
+.send-btn {
+  background-color: #1d3557;
+  color: white;
+}
+
+.tutor_btn {
+  background-color: #1d3557;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-weight: bold;
+  cursor: pointer;
+}

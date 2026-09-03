@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6fb;
+}
+
+.topbar {
+  background-color: rgb(36, 16, 105);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  color: rgb(36, 16, 105);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  background-color: white;
+  color: rgb(36, 16, 105);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.page {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.solved-tag {
+  background-color: #aa3333;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.difficulty {
+  display: flex;
+  gap: 12px;
+  margin: 25px 0;
+}
+
+.difficulty button {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: rgb(36, 16, 105);
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid rgb(36, 16, 105);
+  transition: 0.2s;
+}
+
+.difficulty button:hover {
+  background: #ece9ff;
+}
+
+.difficulty .selected {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background: rgb(36, 16, 105);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.difficulty button:hover {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background: rgb(36, 16, 105);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.question,
+.ai-feedback {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.textarea {
+  width: 100%;
+  height: 180px;
+  padding: 15px;
+  box-sizing: border-box;
+
+  border: 2px solid #d6d6e8;
+  border-radius: 10px;
+
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  margin-top: 15px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: rgb(36, 16, 105);
+  color: white;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: rgb(52, 32, 135);
+}
+
+.score {
+  color: rgb(174, 31, 31);
+  font-weight: bold;
+}
